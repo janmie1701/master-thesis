@@ -1,0 +1,21 @@
+\begin{tikzpicture}
+    \draw[rotate=25, dashed, gray, line width=0.5mm] (0,0) ellipse (3cm and 1.2cm);
+    \fill (-2, -1.6) circle (0.7);
+    \fill (2, 1.6) circle (0.4);
+    \draw[->, red, line width=0.7mm] (-2, -1.6) -- (-3.8, -0.9); 
+    \draw[->, red, line width=0.7mm] (2, 1.6) -- (2.7, 2.9); 
+    \draw[->, blue, line width=0.7mm, rotate=25] (0, 0) -- (0, 3); 
+    \draw[->, yellow, line width=0.7mm, rotate=15] (0, 0) -- (0, 4); 
+    \draw[->, green, line width=0.4mm, rotate=25] (0, 0) -- (0, 1.5);
+    \draw[->, green, line width=0.4mm] (0, 0) -- (-1,-0.8);
+    \draw[->, red, line width=0.7mm] (0, 0) -- (0, 2); 
+    \node[blue] at (-1.7, 2.4) {$\vec{L}$};
+    \node[yellow] at (-0.6, 3.7) {$\vec{J}$};
+    \node[red] at (0.4, 1.8) {$\vec{S}$};
+    \node[red] at (3.1, 2.9) {$\vec{s}_2$};
+    \node[red] at (-3.5, -0.5) {$\vec{s}_1$};
+    \node[green] at (-1.3, 1.2) {$\chi_{eff}$};
+    \node[green] at (-0.8, -1.1) {$\chi_{p}$};
+    \node[magenta] at (0.5, 0.9) {$\theta_{LS}$};
+    \draw [magenta, line width=0.5mm] (0, 1.1) arc[start angle=90, end angle=114, radius=1.1];
+\end{tikzpicture}
